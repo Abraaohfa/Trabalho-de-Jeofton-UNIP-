@@ -28,5 +28,17 @@ def show_answer():
     lbl_a.config(text=f"✅ {current[1]}")
     btn_show.config(state=tk.DISABLED)
 
+root = tk.Tk()
+root.title("Flashcards")
+root.geometry("400x400")
 
+tk.Label(root, text="Pergunta:").pack()
+entry_q = tk.Entry(root, width=40)
+entry_q.pack()
 
+tk.Label(root, text="Resposta:").pack()
+entry_a = tk.Entry(root, width=40)
+entry_a.pack()
+
+tk.Button(root, text="Adicionar", command=add).pack(pady=5)
+tk.Button(root, text="Revisar", command=review).pack(pady=5)
