@@ -41,4 +41,14 @@ entry_a = tk.Entry(root, width=40)
 entry_a.pack()
 
 tk.Button(root, text="Adicionar", command=add).pack(pady=5)
-tk.Button(root, text="Revisar", command=review).pack(pady=5)
+tk.Button(root, text="Revisar", command=review).pack(pady=5) 
+btn_show=tk.Button(root, text="Mostrar Resposta",command=show_answer,state=tk.DISABLED)
+btn_show.pack(pady=5)
+
+lbl_q=tk.Label(root, text="? Questao",font=("Arial",14))
+lbl_q.pack(pady=5)
+lbl_a=tk.Label(root,text="Resposta:???",font=("Arial",14))
+lbl_a.pack(pady=5)
+
+current=None
+root.mainloop()
