@@ -3,7 +3,7 @@
 Este é um projeto de Flashcards, desenvolvido em dupla, utilizando Python e a biblioteca Tkinter para criar uma interface gráfica. O objetivo é ajudar no processo de memorização de conteúdos por meio da prática de perguntas e respostas.
 
 Funcionalidades:
-dicionar perguntas e respostas (flashcards) de forma fácil; Revisar flashcards de forma aleatória para testar seu conhecimento; Exibir a resposta quando desejar, facilitando o aprendizado.
+adicionar perguntas e respostas (flashcards) de forma fácil; Revisar flashcards de forma aleatória para testar seu conhecimento; Exibir a resposta quando desejar, facilitando o aprendizado.
 
 🎨 Tecnologias Utilizadas:
 Python;
