@@ -1,4 +1,5 @@
 # Trabalho-de-Jeofton-UNIP-
+Trabalho P1, Universidade: UNIPÊ
 🧠 Flashcards em Python com Tkinter:
 Este é um projeto de Flashcards, desenvolvido em dupla, utilizando Python e a biblioteca Tkinter para criar uma interface gráfica. O objetivo é ajudar no processo de memorização de conteúdos por meio da prática de perguntas e respostas.
 
